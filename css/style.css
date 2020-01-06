@@ -1,6 +1,7 @@
 body {
   background-color: #f4f4f4
 }
+header {width: 100%}
 nav {
   /* position: fixed; */
   top: 0;
@@ -226,6 +227,7 @@ input[type="text"] {
   font-weight: 800;
 }
 .text-mobile ul {
+  list-style: none;
   color: #00234b ;
   margin-left: 50px;
   font-size: 20px;
@@ -237,4 +239,102 @@ height: 60px;
 width: auto;
 margin-top: 20px;
 margin-left: 40px;
+}
+.image-service img {
+  float: right;
+  margin-top: -200px;
+}
+.text-service {
+  float: left;
+}
+.text-service h4 {
+  color: #00234b ;
+  margin-right: 20px;
+  text-align: left;
+  font-size: 65px;
+  font-weight: 800;
+}
+.text-service p {
+  color: #00234b ;
+  margin-right: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+.text-service ul {
+  list-style: none;
+  color: #00234b ;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.text-service {
+  z-index: 1;
+  position: relative;
+  margin-top: 200px;
+  margin-left: 90px;
+}
+.image-service img {
+  z-index: 0;
+  margin-top: -500px;
+  margin-right: 20px;
+}
+.text-service button {
+  margin-top: 30px;
+  margin-left: 50px;
+  border-radius: 30px 30px 30px 30px;
+}
+.text-service button img {
+  width: 20px;
+  height: auto;
+}
+.button-first {
+  background-color: #f44659;
+  color: #00234b ;
+  border: none ;
+  height: 50px;
+  width: auto;
+}
+.secteur4 {
+  margin-top: 1000px;
+}
+.image-patient {
+  float: left;
+  margin-left: 50px;
+}
+.text-patient {
+  float: right;
+  margin-right: 20px;
+}
+.text-patient h5 {
+  color: #00234b ;
+  text-align: right;
+  margin-right: 40px;
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: -70px;
+}
+.text-patient p {
+  margin-top: 50px;
+  float: right;
+  margin-right: 50px;
+  text-align: right;
+  color: #00234b ;
+  font-weight: 600;
+  font-size: 23px;
+}
+.button-second {
+  float: right;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 70px;
+  background-color:  #46d5fc ;
+  color: #00234b;
+  border: none;
+  border-radius: 30px 30px 30px 30px;
+  height: 50px;
+  width: 30%;
+
+  font-size: 18px
 }
