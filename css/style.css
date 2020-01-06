@@ -1,0 +1,167 @@
+
+nav {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  height: 75px;
+  width: 100%;
+  background-color: transparent;
+  box-sizing: border-box;
+  padding: 12px 18px;
+  /* box-shadow: 0px 4px 7px #777; */
+  transition: background-color 0.4s ease-out;
+}
+nav a {
+   color: #00234b;
+   text-decoration: none !important;
+}
+nav a:hover {
+   color: #f44659;
+}
+.body {
+  background-color: #f4f4f4
+}
+.header {
+  background-color: #f4f4f4
+}
+.logo img {
+  width: 50px
+}
+.navbar {
+  margin-top: -10px;
+  width: 100%;
+  display: flex ;
+}
+.link {
+  z-index: 999;
+margin-left: auto;
+margin-top: 18px;
+}
+.link a {
+  font-weight : bolder;
+  font-size: 13px;
+  margin-right: 70px;
+}
+.find {
+  z-index: 1;
+  position: relative;
+  font-weight : bolder;
+  margin-top: -60px;
+  margin-left: 50px
+}
+.find h1 {
+  font-size: 65px;
+  font-weight : bolder;
+}
+.search_imput {
+  height: 50px ;
+  margin-top: auto !important;
+  margin-bottom: 0px !important;
+  border-radius: 0px 0px 0px 0px;
+}
+.search_imput.first {
+
+  border-radius: 30px 0px 0px 30px;
+}
+.simple_button {
+  height: auto;
+  color: #00234b ;
+  background-color:#d473d4 ;
+  margin-top: -2px;
+  border-radius: 0px 30px 30px 0px;
+}
+.dropdown {
+  margin-left: 63%;
+  margin-top: 21px;
+}
+.bannier_image {
+  z-index: 1;
+  margin-left: 658px;
+  margin-top: -439px;
+}
+.bannier2 {
+  margin-top: 50px;
+   margin-left: 20px;
+   z-index: 0 ;
+   position: relative;
+}
+.bannier_text {
+    width: 70%;
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: 10px
+}
+.text-logo {
+  font-weight: 800;
+  font-size: 25px;
+}
+.image-logo {
+  margin-top: -5px
+}
+
+
+/*Don't forget to add Font Awesome CSS : "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"*/
+input[type="text"] {
+  width: 150%;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"] {
+  padding-left: 40px;
+  height: 59px;
+}
+
+.inputWithIcon {
+  margin-right: 52px !important;
+  position: relative;
+  background-color: white
+}
+.inputWithIcon.firt{
+  margin-right: 46px !important;
+  position: relative;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.inputWithIcon img {
+  position: absolute;
+  width: 40px;
+  height: auto;
+  left: 0;
+  top: 8px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+
+.inputWithIcon.inputIconBg img {
+  background-color: #aaa;
+  color: #fff;
+  padding: 9px 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+ .image-search {
+   margin-left: 14px;
+ }
+ .search {
+   margin-top: -12%;
+   z-index: 1;
+   margin-left: 150px !important;
+   width: 84% !important;
+   margin-right: auto;
+ }
+.bannier-search {
+  z-index: 0;
+  margin-left: 34%;
+}
+.secondary {
+  background-color: #f4f4f4;
+
+}
