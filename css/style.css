@@ -338,3 +338,43 @@ margin-left: 40px;
 
   font-size: 18px
 }
+.secteur5 {
+  background-color: white
+}
+.title h4 {
+  margin-top: 1800px;
+  color: #00234b ;
+  text-align: left;
+  margin-right: 40px;
+  font-size: 50px;
+  margin-left: 50px;
+  font-weight: 800;
+}
+.col-md-6 h6 {
+  color: #00234b;
+  font-weight: 800;
+
+  font-size: 30px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.col-md-6 ul {
+  font-weight: 800;
+  color: #00234b;
+  list-style: none;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.col-md-6 a {
+  text-decoration: underline;
+  color: #00234b;
+  font-size: 20px;
+  margin-left: 200px;
+}
+.col-md-6 a:hover {
+  color: #f44659;
+
+}
+.col-md-6 li {
+  margin-bottom: 10px;
+}
