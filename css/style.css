@@ -463,12 +463,13 @@ footer {
 .copy a:hover{
     color: #00234b}
 .contente  {
-  margin-top: 50px;
+  margin-top: -52px !important;
   width: 100%;
   /* margin: auto; */
 }
 
 .sign {
+  background-color: white;
   z-index: 0;
   height: auto;
   margin-left: 20%;
@@ -498,7 +499,7 @@ footer {
 }
 .or {
   margin-top: 20px;
-  margin-left: 34%;
+  margin-left: 33%;
   display: block ruby;
 }
 .or p {
@@ -531,7 +532,7 @@ footer {
   font-weight: bolder;
 }
 .image-sign {
-  margin-top: -753px;
+  margin-top: -777px;
   margin-left: 94px;
   z-index: 1;
   position: relative;
@@ -558,4 +559,45 @@ width: 41%;
   width: inherit !important;
   border-radius: 30px 30px 30px 30px !important;
   background-color: #f4f4f4;
+}
+.modal-dialog {
+  max-width: 1350px !important;
+}
+.modal-content {
+ background-color: none !important;
+}
+.modal-dialog {
+margin-left: 1% !important;
+}
+.btn-secondary {
+  position: relative;
+  z-index: 999;
+  background-color: #e4411f !important;
+  border: none  !important;
+  border-radius: 50% 50% !important;
+  width: 3% !important;
+  float: right !important;
+  margin-left: 20px !important;
+  margin-top: 20px !important;
+  font-weight: bolder !important;
+}
+.modal-body {
+  margin-bottom: 2% !important;
+ margin-top: -5% !important;
+}
+/* Create a custom checkbox */
+.custom-control-input:checked .custom-control-label::before {
+ border-color: #660c99 !important;
+ background-color: #660c99 !important;
+}
+.form-sign a {
+  text-align: center;
+  color: #938a8a ;
+  margin-left: 176px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.form-sign a:hover{
+ color: #d473d4
+  text-decoration: none;
 }
