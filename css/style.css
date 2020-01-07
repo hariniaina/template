@@ -598,6 +598,64 @@ margin-left: 1% !important;
   text-decoration: none;
 }
 .form-sign a:hover{
- color: #d473d4
-  text-decoration: none;
+ color: #d473d4 ;
+}
+.sign-login {
+    background-color: white;
+    z-index: 0;
+    height: auto;
+    margin-left: 30%;
+    width: 41%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 3px 34px -17px;
+}
+
+.auth-login {
+  position: relative;
+  z-index: 999;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.or-login {
+  margin-top: 20px;
+  margin-left: 10%;
+  display: block ruby;
+}
+.or-login p {
+  color: #46d5fc;
+  font-weight: bolder;
+
+}
+.or-login h6 {
+  color: #00234b;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.auth-login h1 {
+  font-size: 38px;
+  font-weight: 800;
+  color: #00234b ;
+}
+.auth-login h4 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #00234b ;
+}
+.auth-login img {
+  width: 6%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.form-sign.login {
+  margin-left: 8% !important;
+}
+.with-icon {
+  display: block ruby !important;
+}
+.with-icon img  {
+  width: 13px;
+  position: relative;
+  z-index: 9;
+  margin-left: -36px;
 }
