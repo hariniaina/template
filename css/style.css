@@ -1,7 +1,10 @@
 
-header {width: 100vh}
+header {width: 200vh}
 body {
-  width: 100%
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 nav {
   /* position: fixed; */
@@ -35,6 +38,7 @@ nav a:hover {
   width: 50px;
   margin-left: 12%
 }
+
 .navbar {
   margin-top: -10px;
   width: 100%;
@@ -106,13 +110,19 @@ margin-right: 20px;
   z-index: 1;
   height: 50px;
   margin-right: auto;
-  margin-left: 720px;
+  margin-left: 735px;
   margin-top: -380px;
 }
 .bannier_image img{
   height: 450px;
   width: 650px;
 
+}
+.header{
+  width: 102%;
+}
+.secteur {
+    width: 102%;
 }
 .bannier2 {
   margin-top: 30px;
@@ -447,6 +457,98 @@ footer {
 }
 .copy a{
   color:  #00234b;}
-
-  .copy a:hover{
+footer {
+  width: 102%
+}
+.copy a:hover{
     color: #00234b}
+.contente  {
+  margin-top: 50px;
+  width: 100%;
+  /* margin: auto; */
+}
+
+.sign {
+  z-index: 0;
+  height: auto;
+  margin-left: 20%;
+  width: 70%;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 1px 3px 34px -17px ;
+/* width: max-content; */
+}
+
+.auth {
+  position: relative;
+  z-index: 999;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 30%
+}
+
+.auth h4 {
+  font-size: 23px;
+  font-weight: 800;
+  color: #00234b ;
+}
+.auth img {
+  width: 6%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.or {
+  margin-top: 20px;
+  margin-left: 34%;
+  display: block ruby;
+}
+.or p {
+  color: #46d5fc;
+  font-weight: bolder;
+
+}
+.or h6 {
+  color: #00234b;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.form-sign {
+  position: relative;
+  z-index: 999;
+  margin-right: 38px;
+  margin-left: 33%;
+  margin-bottom: 50px !important;
+}
+.form-input {
+  width: inherit !important;
+  border-radius: 30px 30px 30px 30px !important;
+  background-color: #f4f4f4;
+}
+.form-sign label {
+  color: #00234b;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-left: 6px;
+  font-weight: bolder;
+}
+.image-sign {
+  margin-top: -753px;
+  margin-left: 94px;
+  z-index: 1;
+  position: relative;
+}
+.image-sign img {
+width: 41%;
+}
+.button3 {
+  text-align: center;
+  background-color: #660c99;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 30px 30px 30px 30px ;
+  margin-left: 40%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  padding: 7px 30px;
+}
