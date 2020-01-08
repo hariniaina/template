@@ -288,12 +288,7 @@ input[type="text"] {
   font-weight: 300;
   margin-top: 80px;
 }
-.text-mobile img {
-height: 60px;
-width: auto;
-margin-top: 20px;
-margin-left: 40px;
-}
+
 .image-service img {
   float: right;
   width: 50%;
@@ -713,4 +708,14 @@ display: -webkit-inline-box;
 }
 .secteur2 {
   background-color: #f4f4f4
+}
+.ronde {
+  height: 60px;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.ronde1 {
+  width: 10px;
+  height: auto;
 }
