@@ -58,11 +58,11 @@ margin-top: 18px;
   z-index: 1;
   position: relative;
   font-weight : bolder;
-  margin-top: -60px;
+  margin-top: -37px;
   margin-left: 50px
 }
 .find h1 {
-  font-size: 60px;
+  font-size: 58px;
   font-weight : bolder;
 }
 .search_imput {
@@ -112,7 +112,7 @@ margin-right: 20px;
   height: 50px;
   margin-right: auto;
   margin-left: 735px;
-  margin-top: -380px;
+  margin-top: -348px;
 }
 .bannier_image img{
   height: 450px;
@@ -130,6 +130,11 @@ margin-right: 20px;
    margin-left: 20px;
    z-index: 0 ;
    position: relative;
+}
+.bannier2 img {
+  width: 91px;
+  margin-left: 26px;
+  margin-top: -27px;
 }
 .bannier_text {
     width: 70%;
@@ -165,7 +170,7 @@ input[type="text"] {
 }
 
 .inputWithIcon {
-  margin-right: 64px !important;
+  margin-right: 59px !important;
   position: relative;
 }
 .inputWithIcon.firt{
@@ -198,10 +203,10 @@ input[type="text"] {
  }
  .search {
    margin-top: -200px;
-   margin-top: 7%;
+   margin-top: 9%;
    z-index: 1;
-   margin-left: 69px !important;
-   width: 94% !important;
+   margin-left: 121px !important;
+   width: 89% !important;
    margin-right: auto;
  }
 .bannier-search {
@@ -209,6 +214,11 @@ input[type="text"] {
   margin-top: -196px;
   margin-bottom: 100px;
   margin-left: 34%;
+}
+.bannier-search img {
+  width: 208px;
+  margin-left: -6px;
+  margin-top: 33px;
 }
 .secondary {
   background-color: #f4f4f4;
@@ -225,7 +235,7 @@ input[type="text"] {
   text-align: center;
 }
 .image-speciality img {
-  width: 36%;
+  width: 27%;
   height: auto;
 }
 .text-title {
@@ -286,6 +296,8 @@ margin-left: 40px;
 }
 .image-service img {
   float: right;
+  width: 50%;
+  margin-right: 65px !important;
   margin-top: -200px;
 }
 .text-service {
@@ -346,6 +358,7 @@ margin-left: 40px;
 .image-patient {
   float: left;
   margin-left: 50px;
+  margin-top: 46px
 }
 .text-patient {
   float: right;
@@ -357,7 +370,7 @@ margin-left: 40px;
   margin-right: 40px;
   font-size: 50px;
   font-weight: 800;
-  margin-top: -70px;
+  margin-top: 33px;
 }
 .text-patient p {
   margin-top: 50px;
@@ -386,7 +399,7 @@ margin-left: 40px;
   background-color: white
 }
 .title h4 {
-  margin-top: 1800px;
+  margin-top: 1373px;
   color: #00234b ;
   text-align: left;
   margin-right: 40px;
@@ -447,6 +460,9 @@ footer {
   height: 50px;
   width: auto;
   margin-bottom: 30px;
+}
+.simple_button {
+  height: 61px;
 }
 .col-md-3 a:hover {
   color:  #00234b;
@@ -694,4 +710,7 @@ display: -webkit-inline-box;
   margin-right: 1px;
   font-size: 20px;
   font-weight: bolder;
+}
+.secteur2 {
+  background-color: #f4f4f4
 }
