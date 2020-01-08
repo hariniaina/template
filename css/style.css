@@ -55,9 +55,9 @@ margin-top: 18px;
   margin-right: 50px;
 }
 .link a:hover {
-  font-weight : bolder;
-  font-size: 13px;
-  margin-right: 50px;
+  font-weight : 800;
+  color: #00234b
+
 }
 .find {
   z-index: 1;
