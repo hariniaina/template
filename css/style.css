@@ -159,8 +159,8 @@ margin-right: 20px;
 /*Don't forget to add Font Awesome CSS : "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"*/
 input[type="text"] {
   width: 150%;
-  border: 2px solid #fff;
-  border-radius: 4px;
+  border: none;
+  /*border-radius: 4px;*/
   margin: 8px 0;
   outline: none;
   padding: 8px;
@@ -170,7 +170,7 @@ input[type="text"] {
 
 .inputWithIcon input[type="text"] {
   padding-left: 40px;
-  height: 59px;
+  /*height: 59px;*/
 }
 
 .inputWithIcon {
@@ -222,10 +222,12 @@ input[type="text"] {
 .bannier-search img {
   width: 208px;
   margin-left: -6px;
-  margin-top: 33px;
+  margin-top: 49px;
 }
 .secondary {
   background-color: #f4f4f4;
+  position: relative;
+  top: 65px;
 }
 .title {
   text-align: center;
@@ -461,7 +463,10 @@ footer {
   margin-bottom: 30px;
 }
 .simple_button {
-  height: 61px;
+  height: 49px;
+  border: none;
+  position: relative;
+  top: 2px
 }
 .col-md-3 a:hover {
   color:  #00234b;
@@ -514,8 +519,9 @@ footer {
   margin-right: 20px;
 }
 .or {
-  margin-top: 20px;
-  margin-left: 33%;
+  position: relative;
+  top: -5px;
+  left: 64%;
 display: -webkit-inline-box;
 }
 .or p {
@@ -542,10 +548,11 @@ display: -webkit-inline-box;
   border-radius: 30px 30px 30px 30px !important;
   background-color: #f4f4f4;
 }
+
 .form-sign label {
   color: #00234b;
   margin-bottom: 0px;
-  margin-top: 10px;
+  margin-top: -19px;
   margin-left: 6px;
   font-size: 13px;
   font-weight: bolder;
@@ -567,19 +574,22 @@ width: 41%;
   font-weight: bolder;
   border: none;
   border-radius: 30px 30px 30px 30px ;
-  margin-bottom: 20px;
-  margin-top: 30px;
-  padding: 7px 30px;
+  /*margin-bottom: 20px;
+  margin-top: 30px;*/
+  padding: 7px 20px;
+
+  
+}
 }
 
 .ml-40 {
   margin-left: 40% !important;
 }
 .ml-30 {
-  margin-left: 30% !important;
+  margin-left: 31% !important;
 }
 .ml-20 {
-  margin-left: 20% !important;
+  margin-left: 31% !important;
 }
 .ml-10 {
   margin-left: 10% !important;
@@ -592,7 +602,7 @@ width: 41%;
   padding: 10px;
   border: none;
   width: inherit !important;
-  border-radius: 30px 30px 30px 30px !important;
+  border-radius: 10px 10px 10px 10px !important;
   background-color: #f4f4f4;
 }
 .modal-dialog {
@@ -625,22 +635,24 @@ margin-left: 1% !important;
  border-color: #660c99 !important;
  background-color: #660c99 !important;
 }
+
 .form-sign a {
   text-align: center;
-  color: #938a8a ;
+  color: #00234b ;
   margin-left: 176px;
-  font-weight: bolder;
   text-decoration: none;
+  font-size: 13px;
 }
+
 .form-sign a:hover{
- color: #d473d4 ;
+ color: #00234b ;
 }
 .sign-login {
     background-color: white;
     z-index: 0;
     height: auto;
-    margin-left: 30%;
-    width: 41%;
+    margin-left: 32%;
+    width: 42%;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 1px 3px 34px -17px;
 }
@@ -710,10 +722,20 @@ display: -webkit-inline-box;
   margin-right: 1px;
   font-size: 20px;
   font-weight: bolder;
+
+
 }
 .secteur2 {
   background-color: #f4f4f4
 }
+
+
+.line img {
+  width: 500px;
+ position: relative;
+ top: 20px; left: 370px;
+}
+
 .ronde {
   height: 60px;
   width: auto;
