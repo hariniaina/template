@@ -393,7 +393,7 @@ input[type="text"] {
   border: none;
   border-radius: 30px 30px 30px 30px;
   height: 50px;
-  width: 30%;
+  width: 22%;
 
   font-size: 18px
 }
@@ -427,8 +427,8 @@ input[type="text"] {
 .col-md-6 a {
   text-decoration: underline;
   color: #00234b;
-  font-size: 20px;
-  margin-left: 200px;
+  font-size: 18px;
+  margin-left: 240px;
 }
 .col-md-6 a:hover {
   color: #f44659;
@@ -618,7 +618,7 @@ margin-left: 1% !important;
 .btn-secondary {
   position: relative;
   z-index: 999;
-  background-color: #e4411f !important;
+  background-color: #670d99 !important;
   border: none  !important;
   border-radius: 50% 50% !important;
   width: 3% !important;
