@@ -371,7 +371,7 @@ input[type="text"] {
   margin-right: 40px;
   font-size: 50px;
   font-weight: 800;
-  margin-top: 33px;
+  margin-top: 81px;
 }
 .text-patient p {
   margin-top: 50px;
@@ -399,6 +399,7 @@ input[type="text"] {
 .secteur5 {
   background-color: white
 }
+
 .title h4 {
   margin-top: 1373px;
   color: #00234b ;
@@ -578,7 +579,7 @@ width: 41%;
   margin-top: 30px;*/
   padding: 7px 20px;
 
-  
+
 }
 }
 
